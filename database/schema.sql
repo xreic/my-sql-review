@@ -3,3 +3,10 @@ CREATE DATABASE ball;
 /*
 mysql -u forest < database/schema.sql
 */
+USE ball
+
+CREATE TABLE tennis (
+  id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+  item_name VARCHAR(255) NOT NULL,
+  amount INT NOT NULL
+);
