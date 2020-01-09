@@ -23,13 +23,13 @@ npm start
 1. Run your seeding function
 
 ## Step 4
-1. Fill out the dbHelpers in `database/helpers.js`
-1. Connect the helpers to your controllers 
+1. Fill out the model functions in `database/models.js`
+1. Connect the models to your controllers 
 1. Fill out the controllers
 1. Test via Postman
 
 ### Optional
-* Refactor your model/helper/controller to use Sequelize
+* Refactor your model/controller to use Sequelize
 
 ## Special Thanks
 * [Morgan](https://github.com/morganjunlin)
