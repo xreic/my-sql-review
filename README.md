@@ -4,6 +4,8 @@
 ```
 npm install
 npm start
+mysql -u root -p < database/schema.sql
+node database/seed.js
 ```
 
 ### Documentation
